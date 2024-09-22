@@ -1,0 +1,149 @@
+#aura-box {
+  margin-top: 10px;
+}
+
+#aura-box-title {
+  font-family: "Italianno", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 45px;
+  opacity: 80%;
+  margin-left: 20px;
+}
+
+#aura-box-title-img-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  position: relative;
+  top: -15px;
+  color: #8f8f8f;
+  gap: 5px;
+}
+
+ul {
+  list-style-image: url("../assets/list-img.png");
+  list-style-position: outside;
+  width: 50vw;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+#aura-list-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  color: #adadad;
+  margin-left: 50px;
+  margin-top: 50px;
+  width: 70vw;
+}
+
+#aura-list-box img {
+  height: 350px;
+}
+
+/* Media query for screens below 825px */
+@media (max-width: 825px) {
+  #aura-box-title {
+      font-size: 35px; /* Reduce font size */
+      margin-left: 15px; /* Adjust margin */
+  }
+  .ma-matchuda{
+    display: none;
+  }
+
+  #aura-box-title-img-box {
+      top: -10px; /* Adjust top position */
+      gap: 3px; /* Reduce gap */
+  }
+
+  #aura-list-box {
+      flex-direction: column; /* Stack elements vertically */
+      width: 80vw; /* Adjust width */
+      margin-left: 20px;
+      margin-top: 30px;
+  }
+
+  #aura-list-box img {
+    display: none;
+      height: 250px; /* Reduce image height */
+  }
+
+  ul {
+      width: 70vw; /* Adjust width */
+  }
+
+  li {
+      margin-bottom: 15px; /* Reduce margin */
+  }
+}
+
+/* Media query for screens below 600px */
+@media (max-width: 600px) {
+  #aura-box-title {
+      font-size: 30px; /* Further reduce font size */
+      margin-left: 10px;
+  }
+
+  #aura-box-title-img-box {
+      top: -5px;
+      gap: 2px;
+  }
+
+  #aura-list-box {
+      width: 90vw;
+      margin-left: 10px;
+      margin-top: 20px;
+  }
+
+  #aura-list-box img {
+    display: none;
+
+      height: 200px; /* Adjust image size */
+  }
+
+  ul {
+      width: 80vw;
+  }
+
+  li {
+      margin-bottom: 10px; /* Smaller margin */
+  }
+}
+
+/* Media query for screens below 400px */
+@media (max-width: 400px) {
+  #aura-box-title {
+      font-size: 25px; /* Smallest font size */
+      margin-left: 5px;
+  }
+
+  #aura-box-title-img-box {
+      gap: 1px;
+  }
+
+  #aura-list-box {
+      width: 95vw;
+      margin-left: 5px;
+      margin-top: 10px;
+  }
+
+  #aura-list-box img {
+      height: 150px; /* Smallest image height */
+    display: none;
+
+  }
+
+  ul {
+      width: 90vw;
+  }
+
+  li {
+      margin-bottom: 5px; /* Minimize margin */
+  }
+}

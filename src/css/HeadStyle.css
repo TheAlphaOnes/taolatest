@@ -1,0 +1,29 @@
+#header{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 10px 20px;
+    padding-bottom: 20px;
+    
+    border-bottom: 1px solid gray;
+    /* border: 1px solid red; */
+    
+}
+#tao-logo{
+    width: 40px;
+    aspect-ratio: 1/1;
+    height: 40px;
+    /* border: 1px solid red; */
+    justify-self: left;
+}
+
+#nav-flow{
+    /* border: 1px solid red; */
+    width: 50px;
+    aspect-ratio: 1/1;
+    height: 50px;
+    position: fixed;
+    right: 10px;
+
+    z-index: 12;
+}

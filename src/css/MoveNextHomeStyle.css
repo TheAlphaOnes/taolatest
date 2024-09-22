@@ -1,0 +1,92 @@
+#movenext {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+#movenext a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#movenext img{
+    
+    height: 65px;
+    /* border: 1px solid purple; */
+    margin-bottom: 30px;
+    position: absolute;
+    bottom: 0%;
+    opacity: 90%;
+    animation-name: floating;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+
+
+#movenext-intro{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+#movenext-intro img{
+    height: 60px;
+    opacity: 90%;
+    animation-name: floating;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0ms;
+}
+
+#movenext-prog{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+#movenext-prog img{
+    height: 80px;
+    opacity: 90%;
+    animation-name: floating;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+
+#movenext-team{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#movenext-team img{
+    height: 80px;
+    opacity: 90%;
+    animation-name: floating;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+
+
+  @keyframes floating {
+    0% { transform: translate(0,  0px); }
+    25% { transform: translate(10px,  0px); }
+    75% { transform: translate(-0px,  0px); }
+    50%  { transform: translate(0, 10px); }
+    100%   { transform: translate(0, -0px); }    
+}

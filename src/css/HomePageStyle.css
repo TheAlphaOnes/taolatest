@@ -1,0 +1,37 @@
+
+/* Existing styles */
+#home-box {
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 90vh;
+}
+
+#hb-1 {
+    font-size: 27px;
+}
+
+#hb-2 {
+    font-size: 145px;
+}
+
+#hb-3 {
+    font-size: 27px;
+}
+
+/* Media query for screens below 825px */
+@media (max-width: 825px) {
+    #home-box {
+        margin-left: 10px;
+        margin-top: 10px;
+        height: 100vh; /* Adjust if needed */
+    }
+
+    #hb-1,
+    #hb-3 {
+        font-size: 18px; /* Smaller text for smaller screens */
+    }
+
+    #hb-2 {
+        font-size: 70px; /* Scale down the large text */
+    }
+}

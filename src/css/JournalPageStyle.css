@@ -1,0 +1,99 @@
+/* #journal-box{
+    height: 100vh;
+} */
+#journal-box-title{
+
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-size: 45px;
+    opacity: 80%;    font-style: normal;
+
+    margin-left: 30px;
+}
+
+#journal-box-sub{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items:center ;
+
+position: relative;
+top: -20px
+}
+
+
+
+#journal-box-sub-head{
+margin-left: 5px;
+color: #8f8f8f;
+}
+@media (max-width:700px) {
+    #journal-box-sub-head{
+        display: none;
+    }
+}
+#journal-box-head{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+
+#journal-blog-box{
+    
+    
+    /* height: 70vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* #journal-blog-box *{
+    border: 1px solid plum;
+    
+} */
+
+#journal-blog-box-inner{
+    height: 400px;
+    width: 100%;
+    
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+#journal-real-all a {
+    color: #8f8f8f;
+    transition: all 350ms ease-in-out;
+}
+
+#journal-real-all a:hover {
+    color: whitesmoke;
+}
+
+#journal-real-all{
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;   
+    
+}
+
+#jorunal-border-img{
+    width: 25%;
+}
+
+
+#journal-blog-box-inner-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+

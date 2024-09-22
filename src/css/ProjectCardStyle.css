@@ -1,0 +1,101 @@
+#project-card {
+    width: 350px;
+    height: 210px;
+    border-radius: 10px;
+    margin: 5px;
+    transition: all 400ms ease-in-out;
+    border: 1px solid grey;
+    overflow: hidden;
+}
+
+#project-card:hover {
+    border: 1px solid whitesmoke;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+#project-card img {
+    transition: all 350ms ease-in-out;
+    width: 350px;
+    height: 210px;
+    position: relative;
+    opacity: 40%;
+}
+
+#project-card img:hover {
+    opacity: 100%;
+}
+
+#prog-card-title {
+    z-index: 10;
+    height: 0%;
+    position: relative;
+    top: 100px;
+    font-size: 35px;
+    font-family: "Italianno", cursive;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+#prog-card-con {
+    z-index: 10;
+    height: 0%;
+    position: relative;
+    top: 140px;
+    font-family: "K2D", sans-serif;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+#prog-card-info:hover {
+    color: whitesmoke;
+}
+
+/* Media Queries */
+
+/* For Tablets (max-width: 825px) */
+@media (max-width: 825px) {
+    #project-card {
+        width: 300px; /* Slightly smaller width */
+        height: 180px; /* Slightly smaller height */
+    }
+
+    #prog-card-title {
+        font-size: 28px; /* Reduce title font size */
+    }
+
+    #prog-card-con {
+        font-size: 12px; /* Reduce content font size */
+    }
+}
+
+/* For Small Devices (max-width: 600px) */
+@media (max-width: 600px) {
+    #project-card {
+        width: 250px; /* Further reduce width */
+        height: 160px; /* Further reduce height */
+    }
+
+    #prog-card-title {
+        font-size: 24px; /* Further reduce title font size */
+    }
+
+    #prog-card-con {
+        font-size: 10px; /* Further reduce content font size */
+    }
+}
+
+/* For Very Small Devices (max-width: 400px) */
+@media (max-width: 400px) {
+    #project-card {
+        width: 200px; /* Smallest width */
+        height: 140px; /* Smallest height */
+    }
+
+    #prog-card-title {
+        font-size: 20px; /* Smallest title font size */
+    }
+
+    #prog-card-con {
+        font-size: 8px; /* Smallest content font size */
+    }
+}

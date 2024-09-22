@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 0%;
+  margin: 0%;
+  color: whitesmoke;
+
+  font-family: "K2D", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  /* user-select: none; */
+  -webkit-user-drag: none;
+
+  
+}
+
+*{
+  scroll-behavior: smooth;
+}
+
+img{
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+
+pre {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+    background-color: rgba(122, 122, 122, 0.204);
+    padding: 20px 20px; 
+    overflow: auto;
+    border-radius: 15px;
+}
+
+
+.k2d-thin {
+  font-family: "K2D", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.k2d-extralight {
+  font-family: "K2D", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.k2d-light {
+  font-family: "K2D", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.k2d-regular {
+  font-family: "K2D", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.k2d-medium {
+  font-family: "K2D", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.k2d-semibold {
+  font-family: "K2D", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.k2d-bold {
+  font-family: "K2D", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.k2d-extrabold {
+  font-family: "K2D", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.k2d-thin-italic {
+  font-family: "K2D", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.k2d-extralight-italic {
+  font-family: "K2D", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.k2d-light-italic {
+  font-family: "K2D", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.k2d-regular-italic {
+  font-family: "K2D", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.k2d-medium-italic {
+  font-family: "K2D", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.k2d-semibold-italic {
+  font-family: "K2D", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.k2d-bold-italic {
+  font-family: "K2D", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.k2d-extrabold-italic {
+  font-family: "K2D", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+
+.italianno-regular {
+  font-family: "Italianno", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.grey-text{
+  color: #7F7F7F;
+}
+
+
+/*  THIS THE SCROLL-BARR */
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 15px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #919191;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: whitesmoke;
+}
+
+/* END OF SCHROLL BAR */

@@ -1,0 +1,111 @@
+#prog-box {
+    padding-top: 10px;
+}
+
+/* Title Styles */
+#prog-box-title {
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    opacity: 80%;
+    margin-left: 20px;
+}
+
+/* Title Image Box */
+#prog-box-title-img-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+    top: -25px;
+    color: #8f8f8f;
+    gap: 5px;
+}
+
+/* Projects Box */
+#pojects-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Projects Side Images */
+#pojects-box-side {
+    height: 350px;
+}
+
+/* Inner Projects Box */
+#prog-box-inner {
+    height: 500px;
+    width: 1150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: auto;
+    margin: 0px 20px;
+    margin-bottom: 10px;
+}
+
+/* Media Queries */
+
+/* For Tablets (max-width: 825px) */
+@media (max-width: 825px) {
+    #prog-box-title {
+        font-size: 35px; /* Reduce font size */
+        margin-left: 10px; /* Adjust margin */
+    }
+
+    #prog-box-inner {
+        width: 90%; /* Make inner box responsive */
+        height: auto; /* Allow height to adjust */
+        margin: 0 10px; /* Adjust margins */
+    }
+
+    #pojects-box-side {
+        height: 250px; /* Reduce height */
+    }
+}
+
+/* For Small Devices (max-width: 600px) */
+@media (max-width: 600px) {
+    .haan-what-is-the-point{
+        display: none;
+    }
+   
+    #prog-box-title {
+        font-size: 30px; /* Further reduce font size */
+        margin-left: 5px; /* Adjust margin */
+        margin-bottom: 10px;
+
+    }
+
+    #prog-box-inner {
+        width: 100%; /* Full width */
+        height: auto; /* Allow height to adjust */
+    }
+
+    #pojects-box-side {
+        height: 200px; /* Further reduce height */
+    }
+}
+
+/* For Very Small Devices (max-width: 400px) */
+@media (max-width: 400px) {
+    #prog-box-title {
+        font-size: 25px; /* Smallest font size */
+    }
+
+    #prog-box-inner {
+        margin: 0; /* Remove margins */
+        padding: 0; /* Remove padding */
+    }
+
+    #pojects-box-side {
+        height: 150px; /* Smallest height */
+    }
+}

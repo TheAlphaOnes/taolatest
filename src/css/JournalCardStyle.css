@@ -1,0 +1,106 @@
+#journal-card {
+    width: 300px;
+    height: 180px;
+    border-radius: 10px;
+    margin: 5px;
+    transition: all 400ms ease-in-out;
+    border: 1px solid grey;
+    overflow: hidden;
+}
+
+#journal-card:hover {
+    border: 1px solid whitesmoke;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+#journal-card img {
+    transition: all 350ms ease-in-out;
+    width: 300px; /* Adjusted for consistent sizing */
+    height: 180px; /* Adjusted for consistent sizing */
+    position: relative;
+    opacity: 40%;
+}
+
+#journal-card img:hover {
+    opacity: 100%;
+}
+
+#journal-card-title {
+    z-index: 10;
+    height: 0%;
+    position: relative;
+    top: 40px;
+    font-size: 30px;
+    font-family: "K2D", sans-serif;
+    font-weight: 400;
+}
+
+#journal-card-content {
+    z-index: 10;
+    height: 0%;
+    position: relative;
+    top: 80px;
+    font-family: "K2D", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+#jorunal-card-info {
+    transition: all 400ms ease-in-out;
+    color: rgb(192, 192, 192);
+}
+
+#jorunal-card-info:hover {
+    color: whitesmoke;
+}
+
+/* Media Queries */
+
+/* For Tablets (max-width: 825px) */
+@media (max-width: 825px) {
+    #journal-card {
+        width: 250px; /* Reduce card width */
+        height: 160px; /* Reduce card height */
+    }
+
+    #journal-card-title {
+        font-size: 28px; /* Reduce title font size */
+    }
+
+    #journal-card-content {
+        font-size: 14px; /* Reduce content font size */
+    }
+}
+
+/* For Small Devices (max-width: 600px) */
+@media (max-width: 600px) {
+    #journal-card {
+        width: 200px; /* Further reduce card width */
+        height: 140px; /* Further reduce card height */
+    }
+
+    #journal-card-title {
+        font-size: 24px; /* Further reduce title font size */
+    }
+
+    #journal-card-content {
+        font-size: 12px; /* Further reduce content font size */
+    }
+}
+
+/* For Very Small Devices (max-width: 400px) */
+@media (max-width: 400px) {
+    #journal-card {
+        width: 180px; /* Smallest card width */
+        height: 120px; /* Smallest card height */
+    }
+
+    #journal-card-title {
+        font-size: 20px; /* Smallest title font size */
+    }
+
+    #journal-card-content {
+        font-size: 10px; /* Smallest content font size */
+    }
+}

@@ -1,0 +1,111 @@
+#blogs-box-title{
+
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    opacity: 80%;
+    margin-left: 30px;
+}
+
+#blogs-box-sub{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items:center ;
+
+position: relative;
+top: -20px
+}
+
+
+
+#blogs-box-sub-head{
+margin-left: 5px;
+color: #8f8f8f;
+}
+
+#blogs-box-head{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+
+#author-list-blog{
+    background-color: rgba(17, 17, 17, 0.603);
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    height: 60vh;
+    width: 225px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    overflow: auto;
+}
+
+#author-list-title{
+
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    
+    margin-bottom: 25px;
+    margin-top: 10px;
+    
+}
+
+#author-list-auth{
+    
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    transition: all ease-in-out 350ms;
+    color: #8f8f8f;
+    margin-bottom: 15px;
+}
+
+#author-list-auth:hover{
+    margin-bottom: 20px;
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+
+#blog-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#blog-articles-box{
+    
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#blog-ab-left , #blog-ab-right{
+    width: 5vw;
+}
+
+#blog-ab-content{
+    /* border: 1px solid palevioletred; */
+    width:  70vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    overflow-y: auto;
+
+}

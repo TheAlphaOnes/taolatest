@@ -1,0 +1,38 @@
+/* #bt-box *{
+    border: 1px solid plum;
+} */
+
+#bt-box{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    width: 220px;
+    text-align: center;
+    color: #7F7F7F;
+    height: 285px;
+    font-size: 15px;
+}
+
+#bt-box-up img,#bt-box-down img{
+    width: 220px;
+
+}
+
+#bt-box-down,#bt-box-up{
+    width: 220px;
+    /* border: 1px solid peru; */
+}
+
+
+
+#bt-box-con-head{
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    margin-top: -20px;
+    margin-bottom: -5px;
+    color: whitesmoke;
+}
